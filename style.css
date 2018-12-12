@@ -1,0 +1,113 @@
+body {
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    text-align: center;
+
+}
+
+nav {
+    text-align: center;
+    background-color: white;
+    width: 100%;
+}
+
+nav img {
+    display: block;
+}
+
+img {
+    width: 180px;
+    margin: 0 auto;
+}
+
+nav a {
+    color: #666666;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav a {
+    display: block;
+    font-size: 16px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    margin: 10px 0;
+}
+
+.header {
+    background-image: url("https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-6/htmlcss1-img_burgerphoto.jpeg");
+    background-position: center;
+    background-size: cover;
+    height: 320px;
+    
+}
+
+.header h1 {
+    color: #fff;
+    padding: 40px;
+    margin: 0 auto;
+    background-color: #05a8aa;
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    font-weight: 300;
+    width: 50%;
+    
+}
+
+.content {
+    margin: 10px auto;
+    width: 50%;
+    height: 500px;
+    overflow: scroll;
+}
+
+.content p {
+  color: #333333;
+  font-weight: 100;
+  line-height: 34px;
+  width: 90%;
+  margin-top: 18px;
+  margin: 0 auto;
+}
+
+.button {
+    padding: 20px;
+    border: 1px solid #05A8AA;
+    margin: 20px auto;
+    width: 200px;
+    display: block;
+    color: #05A8AA;
+    display: block;
+    font-weight: 700; 
+}
+
+.button:hover {
+    background-color: #05A8AA;
+    border: 1px solid #05A8AA;
+    color: #FFF;
+}
+
+ul li .category {
+    color: white;
+    font-weight: 100;
+    letter-spacing: 2px;
+    display: block;
+}
+
+ul li .value {
+    color: white;
+    letter-spacing: 2px;
+    font-weight: 700;
+    font-size: 26px;
+}
+
+ul li {
+    background-color: #05A8AA;
+    width: 200px;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-bottom: 3px;
+}
